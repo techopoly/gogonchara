@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./getStarted.css" />
+    <title>Gogon</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav class="desktop-nav">
+        <div class="logo">
+          <a href="./index.html">
+            <img src="images/gogonLogo.svg" />
+          </a>
+        </div>
+        <ul class="menu-items">
+            <li>
+                <a href="#" class="active">Home</a>
+              </li>
+              <li>
+                <a href="#">About</a>
+              </li>
+              <li>
+                <a href="#">How To</a>
+              </li>
+              <li>
+                <a href="">Contact</a>
+              </li>
+              <li >
+                <a href="./getStarted.html" class="btn">Get Started</a>
+              </li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="wrapper">
+      <div class="get-started">
+        <div class="left">
+          <h1>Get Started</h1>
+          <p>
+            Build your own farm with us. You can start by filling this form up.
+            We will contact you with the details
+          </p>
+        </div>
+        <div class="right ">
+          <p>fill out the form below</p>
+          <p>Interested In:</p>
+          <form action="">
+            <div class="checkbox margin-20">
+              <div class="c">
+                <input
+                  type="checkbox"
+                  id="c1"
+                  name="building"
+                  value="building"
+                  onclick="onCheckHandler(event)"/>
+                <label for="c1">Building a farm </label>
+              </div>
+              <div class="c">
+                <input type="checkbox" id="c2" name="buying" value="buying" onclick="onCheckHandler(event)"/>
+                <label for="c2">Buying Produces </label>
+              </div>
+            </div>
+            <div class="group margin-20">
+              <input type="text" placeholder="First Name" />
+              <input type="text" placeholder="Last Name" />
+            </div>
+            <div class="group margin-20">
+              <input type="text" placeholder="Company" />
+              <input type="text" placeholder="Phone Number" />
+            </div>
+            <div class="group margin-20">
+              <input type="text" placeholder="Email address" />
+            </div>
+            <div class="group margin-20">
+              <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="5"
+                placeholder="Any question?"
+              ></textarea>
+            </div>
+            <div class="center">
+                <a href="#" class="btn ">Send Message</a >
+            </div>
+            
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="wrapper">
+        <div class="footer-container">
+          <div class="logo">
+            <img src="/images/gogonLogo.svg" alt="" />
+          </div>
+          <div class="footer-nav">
+            <h3>About Us</h3>
+            <ul>
+              <li>
+                <a href="">Who we are</a>
+              </li>
+              <li>
+                <a href="">How we build farm</a>
+              </li>
+              <li>
+                <a href="">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-nav">
+            <h3>Get Social</h3>
+            <div class="footer-social">
+              <a href="#">
+                <img src="/images/Facebook Icon.svg" alt="" />
+              </a>
+              <a href="#">
+                <img src="/images/Twitter Icon.svg" alt="" />
+              </a>
+              <a href="#">
+                <img src="/images/Instagram Icon.svg" alt="" />
+              </a>
+            </div>
+            <p>gogonchara@gmail.com</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="getStarted.js"></script>
+  </body>
+</html>
